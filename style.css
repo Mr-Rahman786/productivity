@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 /* navbar */
 .navbar-brand{
@@ -157,6 +158,87 @@
     color: red;
     transition: 0.6s;
 }
+/* card offer-item */
+
+.card-main-container{
+    margin-top: 10%;
+}
+.offers-title{
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: 'Russo One', sans-serif; 
+    /* box-shadow: 15px 20px 20px; */
+    color: orangered;
+}
+.card-main{
+    /* border: 1px solid blue; */
+    /* margin: 2px; */
+}
+.card-main:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.card-images-by{
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.icon-plax{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    /* justify-content: center; */
+}
+.margin-left-title{
+    margin-left: 2%;
+}
+.order-now-btn{
+    font-size: 1.3rem;
+    padding: 6px 30px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(149, 34, 57);
+    color: white;
+}
+.extra-btn{
+    padding: 8px 50px;
+}
+.opening{
+    /* border: 1px solid blue; */
+    background-color: rgb(158, 157, 157);
+    border-radius: 20px;
+}
+.image-defoult{
+    width: 300px;
+    padding-top: 5%;
+    /* box-shadow: 5px 10px 20px rgb(23, 23, 27); */
+}
+.more-relative{
+    position: relative;
+    left: 90%;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,5 +313,16 @@
     .header-five {
         text-align: center;
         padding-top: 5%;
+    }
+    /* card-image */
+    .card-main{
+        /* margin: 5%; */
+        padding: 10%;
+    }
+    .more-relative {
+        position: relative;
+        left: 90%;
+        font-size: 1.9rem;
+        bottom: 7%;
     }
 }
