@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap');
+
+/* navbar */
+.navbar-brand{
+    color: rgb(255, 0, 89);
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-toggler{
+    font-size: 15px;
+    border: 1px solid rgb(255, 0, 144);
+}
+.navbar-toggler-icon{
+    color: red;
+}
+
+/* slider */
+
+.non-images{
+    height: 700px;
+}
+.slider{
+    margin-top: 7%;
+}
+.title-by-slide{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 4rem;
+}
+.btn-by-slider{
+    padding: 10px 40px;
+    box-shadow: 5px 10px 20px crimson;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Dancing Script', cursive;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border: none; 
+}
+
+/* item-card-by-title */
+.gap-top{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.margo-1{
+    background-color:#2f3c39 ;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 30px black;
+}
+.margo-2{
+    background-color: #510a27;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 30px black;
+}
+.margo-3{
+
+    text-align: center;
+    background-color: slategray;
+    color: rgb(255, 255, 255);
+    padding: 15px ;
+    border-radius: 10px;
+    box-shadow: 5px 20px 30px black;
+}
+.margo-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.margo-2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.margo-3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* image-flex */
+.image-paddom{
+    padding: 20px;
+    border-radius: 30px;
+}
+.mainly{
+    padding: 30px;
+}
+.btn-image-item{
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: crimson;
+    color: white;
+    border-radius:12px ;
+}
+.btn-image-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+
+}
+.iconify-icon-one{
+    position: relative;
+    top: 5px;
+    font-size: 1.5rem;
+    left: 10px;
+}
+/* tosts============= */
+.toast-positions{
+    position: relative;
+    left: 50%;
+}
+.massenger img{
+    width: 10px;
+}
+
+/* footer */
+.footer-main{
+    background-color: black;
+}
+.header-five{
+    color: white;
+    text-align: center;
+}
+.store-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    color: white;
+    /* font-size: 1.5rem; */
+    transform: 0.5;
+}
+.apple-icon{
+    font-size: 3.5rem;
+}
+.apple-icon:hover{
+    color: red;
+    transition: 0.6s;
+}
+
+
+
+/* mobile-device */
+@media screen and (max-width:575px){
+    body{
+        margin: 0;
+    }
+    .navbar-brand{
+        font-size: 1.3rem;
+    }
+    /* sliders */
+    .title-by-slide{
+        font-size: 2rem;
+    }
+    .para-by-slide{
+        display: none;
+    }
+    .non-images {
+        height: 300px;
+    }
+    .btn-by-slider{
+        padding: 5px 15px;
+        font-size: 5px;
+    }
+
+    /* card-01 */
+        .gap-top {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+        .margo-1{
+        /* margin-left: 0; */
+        width: 200px;
+        margin-left: 20%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+        .margo-2 {
+        /* margin-left: 0; */
+        width: 200px;
+        margin-left: 20%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+        .margo-3 {
+        /* margin-left: 0; */
+        width: 200px;
+        margin-left: 20%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    /* tosts */
+    .footer-main {
+        width: 96%;
+        height: 120px;
+    }
+    .toast-positions {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .store-flex{
+        left: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .apple-icon {
+        font-size: 3rem;
+    }
+    .header-five {
+        text-align: center;
+        padding-top: 5%;
+    }
+}
