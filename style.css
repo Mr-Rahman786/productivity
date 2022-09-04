@@ -136,6 +136,7 @@
 /* footer */
 .footer-main{
     background-color: black;
+    margin-top: 10%;
 }
 .header-five{
     color: white;
@@ -210,6 +211,7 @@
     /* border: 1px solid blue; */
     background-color: rgb(158, 157, 157);
     border-radius: 20px;
+    box-shadow: 5px 10px 10px black;
 }
 .image-defoult{
     width: 300px;
@@ -222,9 +224,26 @@
     font-size: 1.5rem;
 }
 
-
-
-
+/* clien says */
+.clients-header{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+.client-improve{
+    margin-top: 10%;
+}
+.colups{
+    padding: 5%;
+}
+/* ==========friquency-ask */
+.friquency-ask{
+    margin-top: 10%;
+}
+.ask{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
 
 
 
